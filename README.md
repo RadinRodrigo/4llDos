@@ -3,7 +3,7 @@ Advanced DoS Testing Tool ⚠ Legal Disclaimer: This tool is for authorized pene
 
 Installation & Usage
 
-1)git clone https://github.com/yourusername/advanced-dos-tester.git
+1)git clone https://github.com/RadinRodrigo/4llDos.git
 
 2)cd advanced-dos-tester
 
