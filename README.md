@@ -17,7 +17,7 @@ python3 dos.py <TARGET_IP> -p <PORT> -t <TPS> -m <METHOD> -d <DURATION>
 
 # Example (Authorized Testing):
 
-# TCP SYN Flood (100 TPS for 30 seconds)
+TCP SYN Flood (100 TPS for 30 seconds)
 ```
 python3 dos.py 192.168.1.100 -p 80 -t 100 -m tcp -d 30
 ```
