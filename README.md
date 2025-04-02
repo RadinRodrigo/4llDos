@@ -4,19 +4,20 @@ Advanced DoS Testing Tool ⚠ Legal Disclaimer: This tool is for authorized pene
 # Installation & Usage
 
 ```
-kali@kali-$ git clone https://github.com/RadinRodrigo/4llDos.git
+git clone https://github.com/RadinRodrigo/4llDos.git
 ```
 
 ```
-kali@kali-$ cd 4llDos
+cd 4llDos
 ```
 
-3)```
-kali@kali-$ python3 dos.py <TARGET_IP> -p <PORT> -t <TPS> -m <METHOD> -d <DURATION>
+```
+python3 dos.py <TARGET_IP> -p <PORT> -t <TPS> -m <METHOD> -d <DURATION>
 ```
 
-Example (Authorized Testing):
+# Example (Authorized Testing):
 
 # TCP SYN Flood (100 TPS for 30 seconds)
-kali@kali-$ 
-    python3 dos.py 192.168.1.100 -p 80 -t 100 -m tcp -d 30
+```
+python3 dos.py 192.168.1.100 -p 80 -t 100 -m tcp -d 30
+```
