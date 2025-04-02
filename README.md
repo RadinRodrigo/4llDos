@@ -3,13 +3,17 @@ Advanced DoS Testing Tool ⚠ Legal Disclaimer: This tool is for authorized pene
 
 # Installation & Usage
 
-1)git clone https://github.com/RadinRodrigo/4llDos.git
+1)kali@kali-$ 
+    git clone https://github.com/RadinRodrigo/4llDos.git
 
-2)cd advanced-dos-tester
+2)kali@kali-$
+    cd advanced-dos-tester
 
-3)python3 advanced_dos_tester.py <TARGET_IP> -p <PORT> -t <TPS> -m <METHOD> -d <DURATION>
+3)kali@kali-$ 
+    python3 advanced_dos_tester.py <TARGET_IP> -p <PORT> -t <TPS> -m <METHOD> -d <DURATION>
 
 Example (Authorized Testing):
 
 # TCP SYN Flood (100 TPS for 30 seconds)
-python3 advanced_dos_tester.py 192.168.1.100 -p 80 -t 100 -m tcp -d 30
+kali@kali-$ 
+    python3 advanced_dos_tester.py 192.168.1.100 -p 80 -t 100 -m tcp -d 30
