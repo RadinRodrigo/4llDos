@@ -3,14 +3,17 @@ Advanced DoS Testing Tool ⚠ Legal Disclaimer: This tool is for authorized pene
 
 # Installation & Usage
 
-1)kali@kali-$ 
-    git clone https://github.com/RadinRodrigo/4llDos.git
+```
+kali@kali-$ git clone https://github.com/RadinRodrigo/4llDos.git
+```
 
-2)kali@kali-$
-    cd 4llDos
+```
+kali@kali-$ cd 4llDos
+```
 
-3)kali@kali-$ 
-    python3 dos.py <TARGET_IP> -p <PORT> -t <TPS> -m <METHOD> -d <DURATION>
+3)```
+kali@kali-$ python3 dos.py <TARGET_IP> -p <PORT> -t <TPS> -m <METHOD> -d <DURATION>
+```
 
 Example (Authorized Testing):
 
